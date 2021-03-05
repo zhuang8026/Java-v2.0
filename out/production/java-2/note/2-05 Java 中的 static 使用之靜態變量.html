@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    demo : imooc_2_05
+    1. 什麼是 static ？
+        -> static 是靜態屬性，主要是用於 全局，可以是變量 也可以是方法，當server啟動的時，會一併啟動，等於就是佔了一個記憶體。
+    2. 要如何使用？
+        -> class.xxxxxx
+        -> EX：
+        class Ball {
+            double radius;
+            static final double PI = 3.141596;
+            static double toRadians(double angdeg) { // 角度轉徑度
+                return angdeg * (Ball.PI / 180);
+            }
+
+            public static void main(String[] args) {
+                int num = Ball.toRadians(100);
+            }
+        }
+</body>
+</html>
