@@ -1,4 +1,4 @@
-# Learn junior Java class 1
+# Learn junior Java class 2
 ### 學習java的第二步，淺了解
 - 2-01 
     - 2-01 
