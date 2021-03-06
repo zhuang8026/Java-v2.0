@@ -17,5 +17,11 @@ public class imooc_2_06 {
         int allScore2 = allScore1.sum();
 
         System.out.println("总分：" + allScore2);
+
+        /* ------------- */
+        /* static 不管是method 還是 variable 都可以直接用class引用 */
+        int num = imooc_2_06.sum();
+        System.out.println(num);
+
     }
 }
