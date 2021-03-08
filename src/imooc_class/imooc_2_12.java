@@ -7,7 +7,6 @@ public class imooc_2_12 {
         public void show() {
             System.out.println("welcome to imooc!");
         }
-
     }
 
 //    内部类Inner，类 Inner2 在类 imooc_2_12 的内部
