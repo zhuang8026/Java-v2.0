@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
+    EX:
+    public class 外部類 {
+        public class 內部類 {
+            public void show() { ... } /* 內部類方法 */
+        }
 
+        public static void main(String[] args) {
+            外部類 i = new 外部類();
+            內部類 s = i.new 內部類(); /* 使用內部類 */
+            s.show(); /* 使用內部類 方法 */
+        }
+    }
 </body>
 </html>

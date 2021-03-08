@@ -7,5 +7,25 @@
 <body>
 
     1. 重點：static 靜態屬性 可以直接使用內部的方法和變數，不需要在另外NEW (實例化)
+
+    EX：
+    public class 外部類 {
+        public static class 內部類 {
+            public void show() { ... } /* 內部類方法 */
+        }
+
+        /* 可以運行,但不建議使用 */
+        public static void main(String[] args) {
+            外部類 i = new 外部類();
+            內部類 s = i.new 內部類(); /* 使用內部類 */
+            s.show(); /* 使用內部類 方法 */
+        }
+
+        /* class is static, this new class can use! */
+        public static void main(String[] args) {
+            內部類 i = new 內部類(); /* ok! */
+            i.show(); /* ok */
+        }
+    }
 </body>
 </html>
