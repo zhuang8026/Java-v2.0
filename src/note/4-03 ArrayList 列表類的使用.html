@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    1. ArrayList 是一種數據存儲方式
+    2. ArrayList 是 Java 內置的數據集合，用於存儲 多個 數據
+    3. ArrayList 是 數組 的 替代品，提供了更多的數據操作方法
+    4. ArrayList 幾乎是每一個項目中必用的類
+    5.
+
+    Array和ArrayList的區別與聯絡 ?
+    1. Array是java中的陣列，我們宣告java的陣列有三種方式：
+        -> int[] a = new int[10];
+        -> int a[] = new int[10]; // 這種方式同c語言一樣
+        -> int a[] = {1,2,3,4};
+    2. 二維陣列是如何宣告 ？
+        -> int[][] da = new int[2][3]; // 推薦用這種宣告方式，更能表明陣列的型別
+        -> int db[][] = new int[4][3];
+
+    3. ArrayList
+        -> ArrayList是動態陣列，也就是陣列的複雜版本，它可以動態的新增和刪除元素
+            -> ArrayList list = new ArrayList(10); // 在不使用泛型的情況下，這個list是可以新增進不同型別的元素的，而且arraylist是可以不用指定長度的。
+            -> ArrayList<Integer> list1 = new ArrayList<Integer>(); // 在使用泛型時，我們就只能新增一種型別的資料了。
+        ->  1. int 是基本資料型別（原始資料型別），直接存數值；integer是int 的封裝類，是物件型別
+            2. int預設值為0，integer預設值為null
+            3. 範型只支援物件型別
+            向ArrayList裡面add，add的必須是Object而不是int
+
+
+</body>
+</html>

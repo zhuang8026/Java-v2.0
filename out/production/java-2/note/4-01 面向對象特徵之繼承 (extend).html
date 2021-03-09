@@ -7,6 +7,16 @@
 <body>
     1. 什麼是繼承(extend) ？
         -> 通俗易懂：一個小孩會繼承 父母 的個外表長相和性格品行，並且還繼承了遺產。
+    2. 子類 會繼承 父類的 protected/public 修飾的成員變量與方法
+        -> protected/public -> ok !
+        -> private -> no !
+    3. 重點：
+                     本類         同一個package中的類      繼承類(extend)      其他類
+        private      yes         <X>                   <X>                <X>
+        (default)    yes         yes                   <X>                <X>
+        protected    yes         yes                   yes                <X>
+        public       yes         yes                   yes                yes
+
 
 </body>
 </html>

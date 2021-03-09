@@ -21,8 +21,8 @@
     - 3-02 訪問修飾符（private public default protect）
     - 3-03 面向對象特性之封裝 (如何使用外部封裝的方法 ?)
     - 3-04 對成員變量進行讀寫封裝 (getter and setter)
-    - 3-05 
-    - 3-07 
-    - 3-08 
+- 4-01 
+    - 4-01 面向對象特徵之繼承(extends)
+    - 4-02 面向對象特性之多態(interface)
 
 - 基礎知識 學習結束，請轉至 "Java-v3.0 - Learn junior Java class 3"
