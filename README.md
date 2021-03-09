@@ -24,5 +24,7 @@
 - 4-01 
     - 4-01 面向對象特徵之繼承(extends)
     - 4-02 面向對象特性之多態(interface)
+      - 4-02s 要如何使用接口?(interface)
+    - 4-03 ArrayList 列表類的使用
 
 - 基礎知識 學習結束，請轉至 "Java-v3.0 - Learn junior Java class 3"
