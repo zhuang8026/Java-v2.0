@@ -3,7 +3,7 @@ package imooc_class;
 import java.util.ArrayList;
 import java.util.List;
 
-public class imooc_4_03 {
+public class imooc_4_033 {
     public static void main(String[] args) {
         /*
          * ArrayList 是取代 array 的使用

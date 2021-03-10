@@ -7,7 +7,7 @@
 <body>
 
     1. 什麼是 "多態" ?
-        淺顯易懂：多種型態
+        淺顯易懂：調用同一個動作，產生不同的行為
         官方解釋：多態是同一個行為具有多個不同表現形式或型態的能力
         -> 就如同打印機
             -> 行為：打印
@@ -24,5 +24,12 @@
         2. 子類 繼承了 父類的時候，子類必須加 implements
             -> .............   子類   ... 實現 ..  父類 { ... }
             -> public class Sample01 implements Interface { ... }
+        3. Interface outSideDemo = sv01.contact(87); // 調用 contact() 並傳入不同的值，會產生不同的內容
+    4. 總結：
+        1. interface 定義一個接口，對所有的子類（實現類）進行管理和約束
+        2. 所有的實現類都必須 實現 interface 所定義的方法 ( Interface.java 中的 voice() )
+        3. 外部類要使用 實現類，在實例化前面必須是 接口的名字 ( Interface xxx = new Sample01(); )
+
+
 </body>
 </html>
