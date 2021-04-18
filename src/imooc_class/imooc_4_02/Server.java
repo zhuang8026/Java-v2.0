@@ -16,6 +16,14 @@ public class Server {
         }
     }
 
+    public Interface contact2(String str){
+        if(str == "wills"){
+            return new Sample01();
+        } else {
+            return new Sample03();
+        }
+    }
+
     public static void main(String[] args) {
         // Sample01 s01 = new Sample01(); // 對象實例，並非類實現接口 (錯誤)
 
@@ -31,5 +39,11 @@ public class Server {
         Server sv = new Server(); // 先實例化 外部類
         Interface s04 = sv.contact(86); // 第三：因為是返回 interface 的實現類，所以前面要聲明 Interface 類別
         s04.voice();
+
+//        Interface s05 = new Sample01();
+//        s05.click();
+        Interface c02 = sv.contact2("wills");
+        c02.voice();
+
     }
 }
