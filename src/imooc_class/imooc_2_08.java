@@ -26,6 +26,10 @@ public class imooc_2_08 {
         System.out.println("有-參數的構造方法執行了！");
     }
 
+    public imooc_2_08( int d) {
+        System.out.println("有-參數的構造方法執行了！" + d);
+    }
+
     /* 使用已經封裝好的對象 */
 //    public static void main(String[] args) {
 //        imooc_2_08 im = new imooc_2_08(1,2,3);

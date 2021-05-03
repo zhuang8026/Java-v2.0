@@ -24,6 +24,14 @@ public class Server {
         }
     }
 
+    public InterfaceTest callBackWill(int num) {
+        if(num == 1){
+            return new Sample04();
+        } else {
+            return null;
+        }
+    }
+
     public static void main(String[] args) {
         // Sample01 s01 = new Sample01(); // 對象實例，並非類實現接口 (錯誤)
 
@@ -44,6 +52,9 @@ public class Server {
 //        s05.click();
         Interface c02 = sv.contact2("wills");
         c02.voice();
+
+        InterfaceTest wi001 = sv.callBackWill(1); // 使用 Server.js 中的 callBackWill，並傳入1
+        wi001.williamTalk(); // 上面傳入參數，這裏是呼叫 Sample04 的 williamTalk
 
     }
 }

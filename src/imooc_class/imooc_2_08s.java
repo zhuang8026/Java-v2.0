@@ -11,6 +11,7 @@ public class imooc_2_08s {
         System.out.println(im.getScreen());
 //        System.out.println(im.cpu); // cpu 私有属性
 //        System.out.println(im.screen); // screen 私有属性
-
+        imooc_2_08 imv2 = new imooc_2_08(99);
+        System.out.println(imv2);
     }
 }
